@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "invoices": [
+    { "id": "DEMO-INV-001", "supplier": "Demo Werkstatt A", "net": 10000, "tax": 1900, "gross": 11900, "evidence": true },
+    { "id": "DEMO-INV-002", "supplier": "Demo Werkstatt B", "net": 20000, "tax": 3800, "gross": 25000, "evidence": true },
+    { "id": "DEMO-INV-003", "supplier": "Demo Werkstatt C", "net": 5000, "tax": 950, "gross": 5950, "evidence": false }
+  ],
+  "jobs": [
+    { "id": "DEMO-JOB-001", "title": "Demo: Anlage warten", "customer": "Demo Kunde A", "status": "planned" },
+    { "id": "DEMO-JOB-002", "title": "Demo: Material pruefen", "customer": "Demo Kunde B", "status": "active" },
+    { "id": "DEMO-JOB-003", "title": "Demo: Service dokumentieren", "customer": "Demo Kunde C", "status": "done" }
+  ]
+}

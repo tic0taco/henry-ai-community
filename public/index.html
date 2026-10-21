@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Henry AI Community</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.mjs"></script></head>
+<body>
+<header><a href="#">H<span class="logo-dot">.</span></a><span>HENRY AI <small>COMMUNITY EDITION</small></span><span class="badge">LOKALE DEMO</span></header>
+<main>
+  <section class="intro"><p class="eyebrow">DEIN BETRIEB. IM UEBERBLICK.</p><h1>Weniger suchen.<br>Mehr erledigen.</h1><p>Rechnungen, Auftraege und Arbeitszeit an einem Ort.<br>Ausprobieren mit frei erfundenen Beispielen.</p></section>
+  <aside class="notice">Nur Demo-Daten · Keine Verbindung zu Betriebssystemen oder KI-Diensten · Aenderungen bleiben bis zum Neuladen im Arbeitsspeicher.</aside>
+  <section class="metrics" aria-label="Uebersicht"><article><p>DEMO-RECHNUNGEN</p><strong id="invoice-count">–</strong></article><article><p>MANUELL PRUEFEN</p><strong id="review-count">–</strong></article><article><p>OFFENE AUFTRAEGE</p><strong id="job-count">–</strong></article></section>
+  <section class="panel"><div class="section-title"><div><p class="eyebrow">01 / BÜRO</p><h2>Rechnungsuebersicht</h2></div><span class="hint">Nur Summen- und Nachweis-Demo</span></div><div id="invoices"></div><p class="footnote">Die Demo prueft Netto + Steuer = Brutto und einen Demo-Nachweis. Keine OCR, Rechtspruefung, Buchung oder Zahlungsfreigabe.</p></section>
+  <div class="columns"><section class="panel"><div class="section-title"><div><p class="eyebrow">02 / EINSATZ</p><h2>Auftraege</h2></div></div><div id="jobs"></div></section>
+  <section class="panel"><p class="eyebrow">03 / ZEIT</p><h2>Demo-Arbeitszeit</h2><label for="timer-job">Auftrag</label><select id="timer-job"></select><p class="timer"><span id="minutes">0</span><small> Minuten</small></p><p id="timer-state" role="status">Bereit zum Start</p><div class="actions"><button id="start" type="button">Starten</button><button id="stop" type="button" disabled>Stoppen</button><button id="reset" type="button" class="secondary">Zuruecksetzen</button></div><p class="footnote">Zeit in vollen Minuten. Keine Speicherung oder Lohnabrechnung.</p></section></div>
+  <p id="error" role="alert"></p>
+</main><footer>Henry AI Community · 0.1.0 · Synthetische Beispiele, lokal ausgefuehrt.</footer>
+</body></html>

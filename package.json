@@ -1,0 +1,14 @@
+{
+  "name": "henry-ai-community",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline demo for invoice review, jobs and time tracking",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check:release": "node scripts/check-release.mjs"
+  }
+}
